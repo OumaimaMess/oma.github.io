@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(37, 4, 99, 0),rgba(37, 4, 99, 0)),url(bkk.jpg);
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 260px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color: rgb(18, 12, 31);
+    text-decoration: wavy;
+    font-size: 30px;
+    font-family: 'Birthstone', cursive;}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: blanchedalmond;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+.nav-links ul li:hover::after{
+        width: 100%;
+
+    }
+.text-box{
+        width: 60%;
+        font-family: 'Birthstone', cursive;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        background-color: rgba(69, 102, 250, 0.247);
+  }
+  .text-box h1{
+        font-size: 65px;
+    }
+
+    i{
+        text-align: center;
+        font-size: 40px;
+    }
+    h2{
+        width: 60%;
+        font-family: 'Birthstone', cursive;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 67%;
+        left: 70%;
+        transform: translate(-50%,-30%);
+        text-align: center;
+    }
+
+
+
+
+    .contact{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(k.jpg);
+        background-position: center;
+        background-size: cover ;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+   
+    .container{
+    
+        display: contents;
+        justify-content: center;
+        align-items: center; 
+        box-sizing: border-box;
+        width: 60%;
+        font-family: 'Birthstone', cursive;
+        color: rgb(20, 1, 73);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 35px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    
+    }
+    .box{
+        background-color: rgba(92, 172, 247, 0.432);
+        border-radius: 17%;}
+    
+
+
+.menu{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(k.jpg);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+  
+}
+h3{
+    font-family: 'Birthstone', cursive;
+    color: rgba(4, 22, 104, 0.74);
+    font-size: 30px;
+}
+.div_menu{
+    background: rgba(247, 120, 183, 0.671);
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.div_menu ul{
+display: inline-flex;
+list-style: none;
+color: rgb(253, 253, 253);
+}
+.div_menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Birthstone', cursive;
+   font-size: 30px;
+}
+.div_menu ul li a{
+    text-decoration: none;
+    color: lightcyan;
+}
+.activ , .div_menu ul li:hover{
+background-color: rgba(247, 119, 178, 0.719);
+border-radius: 3px;}
+.div_menu .fa{
+margin-right: 8px;
+}
+.sub_menu{
+    display: none;
+    font-size: 20px;
+}
+.div_menu ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    background: rgba(247, 119, 178, 0.719);
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.div_menu ul li:hover .sub_menu ul{
+    display: block;
+    margin: 10px;
+
+}
+.div_menu ul li:hover .sub_menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0%;
+    text-align: left;
+}
+.text-box p{
+    font-size: 25px;
+}
+.herobtn{
+    display: inline-block;
+    text-decoration: solid;
+    color: rgb(253, 253, 253);
+    border: 1px solid floralwhite;
+    padding: 12px 34px;
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Birthstone', cursive;
+}
+.herobtn:hover{
+    border: 1px solid rgb(151, 161, 243);
+    background: lightblue;
+    transition: 1s;
+}
